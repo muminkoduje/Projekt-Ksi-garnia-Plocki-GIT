@@ -21,7 +21,9 @@ table, th, td, tr {
     background-color: black;
     overflow: hidden;
     text-align: center;
-    align-items: center;
+
+
+    
 }
 
 .pasek_nawigacji a{
@@ -29,7 +31,9 @@ table, th, td, tr {
     text-decoration: none;
     padding:10px;
     display: block;
-    text-align: center;
+    width: 275PX;
+
+
 
     
 }
@@ -38,7 +42,10 @@ table, th, td, tr {
     transition: 0.4s;
 }
 .pasek_nawigacji li{
-    float: left;
+    display: inline-block;
+    text-align: center;
+
+    
 
 }
 
@@ -46,11 +53,12 @@ aside{
     width: 20%;
     padding: 20px;
     float: left;
-    background-color: rgb(45, 69, 45);
+    background-color: brown;
 }
 aside ul{
     list-style-type: none;
 }
+
 section{
     width: 60%;
     float: left;

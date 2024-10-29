@@ -1,6 +1,10 @@
 h1{
-    font-family: Titillium Web,sans-serif !important
+    font-family: Titillium Web,sans-serif;
+    background-color:white;
+    color: black;
+
   }
+
 
 table, th, td, tr {
     border-style: groove;
@@ -18,7 +22,7 @@ table, th, td, tr {
   }
 .pasek_nawigacji  ul{
     list-style-type: none;
-    background-color: black;
+    background-color:rgb(167, 67, 67);
     overflow: hidden;
     text-align: center;
 
@@ -38,7 +42,7 @@ table, th, td, tr {
     
 }
 .pasek_nawigacji a:hover{
-    background-color: brown;
+    background-color: rgb(151, 30, 30);
     transition: 0.4s;
 }
 .pasek_nawigacji li{
@@ -48,12 +52,33 @@ table, th, td, tr {
     
 
 }
+.pasek_informacji li{
+    display: inline-block;
+    align-items: left;
+    text-align: center;
+    color: white;
+    margin: 8px;
+    width: 50px;
+}
+.pasek_informacji a{
+    color: white;
+    text-decoration: none;
+
+
+}
+.pasek_informacji a:hover{
+    text-decoration:underline;
+}
+
+.pasek_informacji{
+    background-color:rgb(167, 67, 67) ;
+}
 
 aside{
     width: 20%;
     padding: 20px;
     float: left;
-    background-color: brown;
+    background-color:rgb(167, 67, 67);
 }
 aside ul{
     list-style-type: none;

@@ -3,6 +3,7 @@ h1{
     background-color:white;
     color: black;
 
+
   }
 
 
@@ -23,34 +24,32 @@ table, th, td, tr {
 .pasek_nawigacji  ul{
     list-style-type: none;
     border-style:groove;
-
     overflow: hidden;
-    text-align: center;
-    
+    text-align: center;  
 
-
-    
 }
+
 
 .pasek_nawigacji a{
     color: gray;
     text-decoration: none;
     padding:10px;
+    margin-right:85px;
+    margin-left: 85px;
+
     display: block;
-    width: 274.5PX;
-
-
-
-    
+   
 }
+
 .pasek_nawigacji a:hover{
-    background-color: rgb(151, 30, 30);
-    transition: 0.4s;
-    color: white;
+    border-style: solid;
+    border-color:rgb(167, 67, 67) ;
+
 }
 .pasek_nawigacji li{
     display: inline-block;
     text-align: center;
+
 
     
 
@@ -68,6 +67,7 @@ table, th, td, tr {
     text-decoration: none;
 
 
+
 }
 .pasek_informacji a:hover{
     text-decoration:underline;
@@ -78,21 +78,34 @@ table, th, td, tr {
 }
 
 aside{
-    width: 20%;
+    width: 15%;
     padding: 20px;
     float: left;
     background-color:rgb(167, 67, 67);
+    height: 100%;
 }
 aside ul{
     list-style-type: none;
+    margin: 10%;
 
+
+}
+aside a{
+    text-align: center;
 }
 
 section{
-    width: 60%;
+    width: 75%;
     float: left;
+    margin: 5%
 }
 footer{
     display: block;
+    bottom: 0;
+    position: fixed;
+    padding-left: 50%;
+    background-color: blueviolet    ;
+    height: 5%;
+    padding-right: 50%;
     
 }

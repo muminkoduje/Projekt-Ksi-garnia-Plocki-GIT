@@ -22,20 +22,22 @@ table, th, td, tr {
   }
 .pasek_nawigacji  ul{
     list-style-type: none;
-    background-color:rgb(167, 67, 67);
+    border-style:groove;
+
     overflow: hidden;
     text-align: center;
+    
 
 
     
 }
 
 .pasek_nawigacji a{
-    color: white;
+    color: gray;
     text-decoration: none;
     padding:10px;
     display: block;
-    width: 275PX;
+    width: 274.5PX;
 
 
 
@@ -44,6 +46,7 @@ table, th, td, tr {
 .pasek_nawigacji a:hover{
     background-color: rgb(151, 30, 30);
     transition: 0.4s;
+    color: white;
 }
 .pasek_nawigacji li{
     display: inline-block;
@@ -82,6 +85,7 @@ aside{
 }
 aside ul{
     list-style-type: none;
+
 }
 
 section{

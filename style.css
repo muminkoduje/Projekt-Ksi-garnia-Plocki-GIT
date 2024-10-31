@@ -2,7 +2,7 @@ h1{
     font-family: Titillium Web,sans-serif;
     background-color:white;
     color: black;
-
+    text-shadow: 2px 2px goldenrod;
 
   }
 
@@ -13,7 +13,6 @@ table, th, td, tr {
     height: 25px;
     margin: 2%;
   }
- 
   *{
     box-sizing: border-box;
     margin: 0;
@@ -21,14 +20,17 @@ table, th, td, tr {
     font-family: Titillium Web,sans-serif
 
   }
+
 .pasek_nawigacji  ul{
     list-style-type: none;
     border-style:groove;
+    border-left: 0px;
+    border-right: 0px;
     overflow: hidden;
     text-align: center;  
 
 }
-
+/* dodalem border-left i border-right, ladniej estetyczniej wyglada na stronie */
 
 .pasek_nawigacji a{
     color: gray;
@@ -44,6 +46,7 @@ table, th, td, tr {
 .pasek_nawigacji a:hover{
     border-style: solid;
     border-color:rgb(167, 67, 67) ;
+    
 
 }
 .pasek_nawigacji li{
@@ -61,6 +64,7 @@ table, th, td, tr {
     color: white;
     margin: 8px;
     width: 50px;
+    top: 0;
 }
 .pasek_informacji a{
     color: white;
@@ -78,11 +82,13 @@ table, th, td, tr {
 }
 
 aside{
-    width: 15%;
+    width: 20%;
     padding: 20px;
     float: left;
     background-color:rgb(167, 67, 67);
     height: 100%;
+    position: relative;
+    /* position relative dodane */
 }
 aside ul{
     list-style-type: none;
@@ -97,14 +103,14 @@ aside a{
 section{
     width: 75%;
     float: left;
-    margin: 5%
+    margin: 5px;
 }
 footer{
     display: block;
     bottom: 0;
     position: fixed;
     padding-left: 50%;
-    background-color: blueviolet    ;
+    background-color: yellow    ;
     height: 5%;
     padding-right: 50%;
     

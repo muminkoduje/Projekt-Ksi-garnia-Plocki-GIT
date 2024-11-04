@@ -1,8 +1,16 @@
+style.css
+body {
+    background-color: rgb(231, 231, 231);
+}
+body h1 {
+    background-color: white;
+}
+
+
 h1{
     font-family: Titillium Web,sans-serif;
-    background-color:white;
     color: black;
-
+    text-shadow: 2px 2px goldenrod;
 
   }
 
@@ -13,7 +21,6 @@ table, th, td, tr {
     height: 25px;
     margin: 2%;
   }
- 
   *{
     box-sizing: border-box;
     margin: 0;
@@ -21,38 +28,46 @@ table, th, td, tr {
     font-family: Titillium Web,sans-serif
 
   }
+.pasek_glowny{
+    
+}
+.pasek_nawigacji{
+    background-color: yellow;
+}
 .pasek_nawigacji  ul{
     list-style-type: none;
     border-style:groove;
     overflow: hidden;
-    text-align: center;  
+    text-align: center;
 
 }
-
+/* dodalem border-left i border-right, ladniej estetyczniej wyglada na stronie */
 
 .pasek_nawigacji a{
     color: gray;
     text-decoration: none;
-    padding:10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-right:85px;
     margin-left: 85px;
-
+    background-color: brown;
     display: block;
    
 }
 
 .pasek_nawigacji a:hover{
     border-style: solid;
-    border-color:rgb(167, 67, 67) ;
+    border-color:rgb(173, 168, 168) ;
+    
+    
 
 }
 .pasek_nawigacji li{
     display: inline-block;
     text-align: center;
-
-
+    align-items: center;
+    background-color: aquamarine;
     
-
 }
 .pasek_informacji li{
     display: inline-block;
@@ -61,6 +76,7 @@ table, th, td, tr {
     color: white;
     margin: 8px;
     width: 50px;
+    top: 0;
 }
 .pasek_informacji a{
     color: white;
@@ -74,38 +90,69 @@ table, th, td, tr {
 }
 
 .pasek_informacji{
-    background-color:rgb(167, 67, 67) ;
+    background-color:rgb(3, 46, 19) ;
 }
 
 aside{
-    width: 15%;
+    width: 18%;
     padding: 20px;
     float: left;
-    background-color:rgb(167, 67, 67);
+    background-color:rgb(3, 46, 19);
     height: 100%;
+    position: relative;
+    /* position relative dodane */
 }
 aside ul{
     list-style-type: none;
     margin: 10%;
-
-
+}
+aside h2 {
+    color: white;
 }
 aside a{
     text-align: center;
 }
+aside li {
+    color: white;
+}
 
 section{
-    width: 75%;
+    width: 80%;
     float: left;
-    margin: 5%
+    margin: 5px;
 }
 footer{
     display: block;
     bottom: 0;
     position: fixed;
     padding-left: 50%;
-    background-color: blueviolet    ;
+    background-color: rgba(219, 219, 218, 0.884)    ;
     height: 5%;
     padding-right: 50%;
+    box-shadow: 5px;
     
+}
+section div {
+    float: left;
+}
+.Ksiazka {
+    margin-top: 2%;
+    padding: 34px;
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 26px;
+    margin-left:43px;
+    box-shadow: 2px 2px rgb(173, 168, 168);
+}
+.Ksiazka img{
+    height: 400px;
+    box-shadow: 5px 5px rgb(173, 168, 168);
+
+}
+.Ksiazka h4{
+    text-align: center;
+    padding: 3px;
+    margin-top: 13%;
+}
+.Ksiazka p {
+    text-align: center;
 }

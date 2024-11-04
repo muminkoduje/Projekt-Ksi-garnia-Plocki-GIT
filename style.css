@@ -50,22 +50,17 @@ table, th, td, tr {
     margin-left: 85px;
     background-color: brown;
     display: block;
-   
 }
 
 .pasek_nawigacji a:hover{
     border-style: solid;
     border-color:rgb(173, 168, 168) ;
-    
-    
-
 }
 .pasek_nawigacji li{
     display: inline-block;
     text-align: center;
     align-items: center;
     background-color: aquamarine;
-    
 }
 .pasek_informacji li{
     display: inline-block;
@@ -93,7 +88,7 @@ table, th, td, tr {
 
 aside{
     width: 18%;
-    padding: 20px;
+    padding: 10px;
     float: left;
     background-color:rgb(3, 46, 19);
     height: 100%;
@@ -102,16 +97,24 @@ aside{
 }
 aside ul{
     list-style-type: none;
-    margin: 10%;
+    margin: 7%;
 }
 aside h2 {
     color: white;
+    font-family: 'Montserrat'
+    
 }
-aside a{
+
+/*aside a{
     text-align: center;
 }
+*/
+
 aside li {
     color: white;
+    padding: 2px;
+    font-family: 'Montserrat';
+    font-size: 18px;
 }
 
 section{
@@ -136,7 +139,7 @@ section div {
 .Ksiazka {
     margin-top: 2%;
     padding: 34px;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: rgb(212, 212, 212);
     border-radius: 26px;
     margin-left:43px;
     box-shadow: 2px 2px rgb(173, 168, 168);

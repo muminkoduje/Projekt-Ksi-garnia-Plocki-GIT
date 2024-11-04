@@ -30,7 +30,7 @@ table, th, td, tr {
   }
 
 .pasek_nawigacji{
-    background-color: yellow;
+    background-color: white;
 }
 .pasek_nawigacji  ul{
     list-style-type: none;
@@ -44,23 +44,26 @@ table, th, td, tr {
 .pasek_nawigacji a{
     color: gray;
     text-decoration: none;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-right:85px;
     margin-left: 85px;
-    background-color: brown;
+    background-color: white;
     display: block;
+    border: 5px solid transparent;
+    
 }
 
 .pasek_nawigacji a:hover{
-    border-style: solid;
+    border-style:groove;
     border-color:rgb(173, 168, 168) ;
+    transition: 0.3s;
 }
 .pasek_nawigacji li{
     display: inline-block;
     text-align: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: white;
 }
 .pasek_informacji li{
     display: inline-block;

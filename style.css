@@ -1,36 +1,33 @@
 style.css
-body {
-    background-color: rgb(231, 231, 231);
-}
-body h1 {
-    background-color: white;
-}
 
+html{
+    background-color: rgb(223, 223, 223);
+}
+body {
+    background-color: rgb(223, 223, 223);
+}
 
 h1{
-    font-family: Titillium Web,sans-serif;
-    color: black;
-    text-shadow: 2px 2px goldenrod;
-
-  }
-
-
-table, th, td, tr {
-    border-style: groove;
-    width: 500px;
-    height: 25px;
-    margin: 2%;
-  }
-  *{
+    font-family: 'Montserrat';
+    color: rgb(221, 26, 26);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.pasek_glowny p {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.pasek_glowny {
+    position: sticky;
+}
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Titillium Web,sans-serif
-
   }
 
 .pasek_nawigacji{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .pasek_nawigacji  ul{
     list-style-type: none;
@@ -51,19 +48,20 @@ table, th, td, tr {
     background-color: white;
     display: block;
     border: 5px solid transparent;
-    
 }
 
 .pasek_nawigacji a:hover{
     border-style:groove;
-    border-color:rgb(173, 168, 168) ;
+    border-color:rgb(173, 168, 168);
     transition: 0.3s;
+    border-radius: 4px;
 }
 .pasek_nawigacji li{
     display: inline-block;
     text-align: center;
     align-items: center;
     background-color: white;
+    font-family: 'Montserrat';
 }
 .pasek_informacji li{
     display: inline-block;
@@ -77,16 +75,13 @@ table, th, td, tr {
 .pasek_informacji a{
     color: white;
     text-decoration: none;
-
-
-
 }
 .pasek_informacji a:hover{
     text-decoration:underline;
 }
 
 .pasek_informacji{
-    background-color:rgb(3, 46, 19) ;
+    background-color:rgb(3, 46, 19);
 }
 
 aside{
@@ -104,7 +99,7 @@ aside ul{
 }
 aside h2 {
     color: white;
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
     
 }
 
@@ -130,10 +125,12 @@ footer{
     bottom: 0;
     position: fixed;
     padding-left: 50%;
-    background-color: rgba(219, 219, 218, 0.884)    ;
+    /*background-color: rgba(219, 219, 218, 0.884);*/
+    background-color:rgb(3, 46, 19);
     height: 5%;
     padding-right: 50%;
     box-shadow: 5px;
+    color: white;
     
 }
 section div {
@@ -142,7 +139,7 @@ section div {
 .Ksiazka {
     margin-top: 2%;
     padding: 34px;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(255, 255, 255);
     border-radius: 26px;
     margin-left:43px;
     box-shadow: 2px 2px rgb(173, 168, 168);
@@ -156,7 +153,9 @@ section div {
     text-align: center;
     padding: 3px;
     margin-top: 13%;
+    font-family: 'Montserrat';
 }
 .Ksiazka p {
     text-align: center;
+    font-family: 'Montserrat';
 }

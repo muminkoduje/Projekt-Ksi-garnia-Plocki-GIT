@@ -69,8 +69,9 @@ h1{
     text-align: center;
     color: white;
     margin: 8px;
-    width: 50px;
+    width: 70px;
     top: 0;
+    margin-left: 0px;
 }
 .pasek_informacji a{
     color: white;
@@ -165,13 +166,33 @@ section .Ksiazka {
     padding: 35px;
     background-color: white;
     justify-content: center;
+    font-family: 'Montserrat';
 }
 .rejestracja h1 {
     margin-bottom: 8px;
+    font-family: 'Montserrat';
 }
 .rejestracja {
     margin-top: 75px;
     justify-content: center;
     align-items: center;
     margin-left: 24%;
+    font-family: 'Montserrat';
+}
+.rejestracja input {
+    width: 450px;
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.rejestracja p {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+}
+.rejestracja a {
+    text-decoration: none;
+    color: red;
+}
+.rejestracja a:hover{
+    text-decoration: underline;
 }

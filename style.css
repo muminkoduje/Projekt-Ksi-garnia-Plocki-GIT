@@ -133,7 +133,7 @@ footer{
     color: white;
     
 }
-section div {
+section .Ksiazka {
     float: left;
 }
 .Ksiazka {
@@ -158,4 +158,20 @@ section div {
 .Ksiazka p {
     text-align: center;
     font-family: 'Montserrat';
+}
+.rejestracja form {
+    border-style: solid;
+    border-radius: 26px;
+    padding: 35px;
+    background-color: white;
+    justify-content: center;
+}
+.rejestracja h1 {
+    margin-bottom: 8px;
+}
+.rejestracja {
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24%;
 }

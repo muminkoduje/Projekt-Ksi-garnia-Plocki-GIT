@@ -196,3 +196,11 @@ section .Ksiazka {
 .rejestracja a:hover{
     text-decoration: underline;
 }
+.rejestracja button {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 13px;
+    width: 165px;
+}

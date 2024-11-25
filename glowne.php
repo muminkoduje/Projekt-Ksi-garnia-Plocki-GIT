@@ -11,7 +11,7 @@ else{
 
 <?php
 
-$conn = sqlsrv_connect("","");
+$conn = sqlsrv_connect(serverName: "",connectionInfo: "");
 
 if ($conn){
     echo"Połączono";

@@ -1,16 +1,7 @@
+<html>
+<head>
+<body>
 <?php
-
-$conn = mysqli_connect("","","","");
-if ($conn){
-    echo"Połączono";
-}
-else{
-    echo "Nie połączono";
-}
-?>
-
-<?php
-
 $conn = sqlsrv_connect(serverName: "",connectionInfo: "");
 
 if ($conn){
@@ -21,3 +12,8 @@ else{
 }
 
 ?>
+</body>
+</head>
+</html>
+
+

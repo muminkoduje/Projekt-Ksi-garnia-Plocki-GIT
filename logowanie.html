@@ -10,7 +10,6 @@
 
 </head>
 
-
 <body>
     <h0>
         <nav class = "pasek_informacji">
@@ -24,32 +23,31 @@
 
     <div class="pasek_glowny">
         <h1>Witamy na stronie GIT</h1>                                                  
-        <p>Najlepsza księgania na śląsku</p>
+        <p>Najlepsza księgarnia na Śląsku</p>
     </div>
 
-
     <nav class ="pasek_nawigacji">
-            <ul>
-
-                <li><a href="główne.html">Strona Główna</a></li>
-                <li><a href="https://youtu.be/p0dEwSnFqP4?si=Gz9kBBGh4NNQAv0J">Bestsellery</a></li>
-                <li><a href="products.html">Nowe</a></li>
-                <li><a href="skup.html">Skup książek</a></li>
-                <li><a href="https://youtu.be/ZHuUcaw4Yz4?si=66SUTWf3nrsufJE7">Gurnik Zabrze</a></li>
-                <li><a href="https://youtu.be/6ASLrHt1Frc?si=kSS9pIgTYt_4r3BZ">XXX</a></li>
-            </ul>
+        <ul>
+            <li><a href="glowna.html">Strona Główna</a></li>
+            <li><a href="https://youtu.be/p0dEwSnFqP4?si=Gz9kBBGh4NNQAv0J">Bestsellery</a></li>
+            <li><a href="products.html">Nowe</a></li>
+            <li><a href="skup.html">Skup książek</a></li>
+            <li><a href="https://youtu.be/ZHuUcaw4Yz4?si=66SUTWf3nrsufJE7">Górnik Zabrze</a></li>
+            <li><a href="https://youtu.be/6ASLrHt1Frc?si=kSS9pIgTYt_4r3BZ">XXX</a></li>
+        </ul>
     </nav>
+
     <main>
         <section>
             <div class="rejestracja">
-                <form action="logowanie.php" method="post">
+                <form method="POST" action="logowanie.php">
                     <h1>Zaloguj się</h1>
                     <center>
-                    <label for="Login">Nazwa użytkownika</label><br>
-                    <input type="text" id="Login" name="Login"><br>
-                    <label for="Password">Hasło</label><br>
-                    <input type="password" id="password" name="password"><br><br>
-                    <button type="button">Zaloguj się</button> 
+                        <label for="Login">Nazwa użytkownika</label><br>
+                        <input type="text" id="Login" name="Login" required><br>
+                        <label for="password">Hasło</label><br>
+                        <input type="password" id="password" name="password" required><br><br>
+                        <button type="submit">Zaloguj się</button>
                     </center>
                     <center><p><a href="rejestracja.html">Nie masz konta?<br>Utwórz je tutaj</a></p></center>
                 </form>
@@ -62,6 +60,5 @@
             <a href="https://takczytam.com/" target="_blank"><center>Wspaniała inspiracja</center></a>
         </footer>
     </div>
-    
 </body>
 </html>
